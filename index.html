@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PteroControl Updated</title>
+    <title>PteroStats Updated</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -30,10 +30,10 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">PteroControl</h1>
-	                        <p class="hero-paragraph">Bot That Allows You To Control Your Servers Running On The Pterodactyl Panel From Discord.</p>
+	                        <h1 class="hero-title mt-0">PteroStats</h1>
+	                        <p class="hero-paragraph">PteroStats is a bot designed to check Pterodactyl Panel, and Nodes status and post it to discord server.</p>
 	                        <div class="hero-cta">
-								<a class="button button-primary" href="https//pterocontrol.falixnudes.com">Invite it</a>
+								<a class="button button-primary" href="https://github.com/HirziDevs/PteroStats">Invite it</a>
 								<div class="lights-toggle">
 									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
 									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
@@ -62,8 +62,8 @@
 					<div class="features-inner section-inner has-bottom-divider">
                         <div class="features-header text-center">
                             <div class="container-sm">
-                                <h2 class="section-title mt-0">PteroControl</h2>
-                                <p class="section-paragraph">a bot designed to make administrating servers running on Pterodactyl more convenient by allowing admins to quickly run certain tasks directly from Discord.</p>
+                                <h2 class="section-title mt-0">PteroStats</h2>
+                                <p class="section-paragraph">a bot designed to check Pterodactyl Panel, and Nodes status and post it to discord server</p>
                                 <div class="features-image">
                                     <img class="features-illustration asset-dark"
                                         src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
@@ -88,8 +88,8 @@
 										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Support Any Server</h3>
-                                    	<p class="text-sm mb-0">We currently support all servers that can be hosted on pterodactyl. From minecraft servers to discord bots, we got it all</p>
+                                    	<h3 class="feature-title mt-0">Customize Embed</h3>
+                                    	<p class="text-sm mb-0">You can change the embed in the config.json file!</p>
 									</div>
 								</div>
                             </div>
@@ -101,7 +101,7 @@
                                     </div>
 									<div class="feature-content">
                                     	<h3 class="feature-title mt-0">Easy Setup</h3>
-                                    	<p class="text-sm mb-0">All you need to do is generate and provide your client API token, as well as specify the panel URL. Just like that, you can now use PteroControl with your server(s) hosted on Pterodactyl.</p>
+                                    	<p class="text-sm mb-0">All you need to do is create apikeys and server at your pterodactyl panel, add the server id to index.html, and fill in the required informations in the config.json file.</p>
 									</div>
 								</div>
                             </div>
@@ -112,8 +112,8 @@
 										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Multiple Panel Support</h3>
-                                    	<p class="text-sm mb-0">Do you have many panel?, we got you covered now PteroControl Support Multiple Panel!</p>
+                                    	<h3 class="feature-title mt-0">How it works?</h3>
+                                    	<p class="text-sm mb-0">PteroStats checks pterodactyl server(s) resource api with axios to get server resource, if the api didn't reply that mean the node of the server is getting wings/daemon down and mark the node as offline</p>
 									</div>
 								</div>
                             </div>
@@ -146,16 +146,13 @@
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a href="https://top.gg/bot/816219634390663230">Vote Bot</a>
-                        </li>
-                        <li>
                             <a href="https://discord.gg/zv6maQRah3">Support Server</a>
                         </li>
                         <li>
                             <a href="https://pterodactyl.io">Pterodactyl</a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2021 PteroControl, all rights reserved</div>
+                    <div class="footer-copyright">&copy; 2021 PteroStats, all rights reserved</div>
                     <div class= "footer-copyright"> <p> Template from  <a href="https://cruip.com/">  Cruip  </a> (switch) </p> </div>
                 </div>
             </div>
