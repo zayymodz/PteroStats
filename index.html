@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,16 @@
     <meta property="og:title" content="PteroStats" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://pterostats.hirzidevs.net" />
-    <meta property="og:image" content="https://cdn.discordapp.com/icons/796049329244471316/26d5d5f57228f29501f567658c342b02.png?size=2048" />
-    <meta property="og:description" content="a bot designed to check Pterodactyl Panel, and Nodes status and post it to discord server."/>
+    <meta property="og:image"
+        content="https://cdn.discordapp.com/icons/796049329244471316/26d5d5f57228f29501f567658c342b02.png?size=2048" />
+    <meta property="og:description"
+        content="a bot designed to check Pterodactyl Panel, and Nodes status and post it to your discord server." />
     <meta property="og:site_name" content="PteroStats" />
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
+
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
         <header class="site-header">
@@ -23,8 +27,8 @@
                     <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="#">
-								<img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
-								<img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+                                <img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
+                                <img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
                             </a>
                         </h1>
                     </div>
@@ -35,108 +39,136 @@
             <section class="hero">
                 <div class="container">
                     <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">PteroStats</h1>
-	                        <p class="hero-paragraph">PteroStats is a bot designed to check Pterodactyl Panel, and Nodes status and post it to discord server.</p>
-	                        <div class="hero-cta">
-								<a class="button button-primary" href="https://github.com/HirziDevs/PteroStats">Download It</a>
-								<div class="lights-toggle">
-									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
-								</div>
-							</div>
-						</div>
-						<div class="hero-media">
-							<div class="header-illustration">
-								<img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
-								<img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
-							</div>
-							<div class="hero-media-illustration">
-								<img class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
-								<img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
-							</div>
-							<div class="hero-media-container">
-								<img class="hero-media-image asset-light" src="https://media.discordapp.net/attachments/796259732683227157/863359897210060820/IMG_20210710_164939.jpg" alt="Hero media">
-								<img class="hero-media-image asset-dark" src="https://media.discordapp.net/attachments/796259732683227157/863359897210060820/IMG_20210710_164939.jpg" alt="Hero media">
-							</div>
-						</div>
+                        <div class="hero-copy">
+                            <h1 class="hero-title mt-0">PteroStats</h1>
+                            <p class="hero-paragraph">PteroStats is a bot designed to check Pterodactyl Panel, and Nodes
+                                status and post it to discord server.</p>
+                            <div class="hero-cta">
+                                <a class="button button-primary" href="https://github.com/HirziDevs/PteroStats">Download
+                                    It</a>
+                                <div class="lights-toggle">
+                                    <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch"
+                                        checked="checked">
+                                    <label for="lights-toggle" class="text-xs"><span>Turn me <span
+                                                class="label-text">dark</span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-media">
+                            <div class="header-illustration">
+                                <img class="header-illustration-image asset-light"
+                                    src="dist/images/header-illustration-light.svg" alt="Header illustration">
+                                <img class="header-illustration-image asset-dark"
+                                    src="dist/images/header-illustration-dark.svg" alt="Header illustration">
+                            </div>
+                            <div class="hero-media-illustration">
+                                <img class="hero-media-illustration-image asset-light"
+                                    src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
+                                <img class="hero-media-illustration-image asset-dark"
+                                    src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+                            </div>
+                            <div class="hero-media-container">
+                                <img class="hero-media-image asset-light"
+                                    src="https://media.discordapp.net/attachments/796259732683227157/863359897210060820/IMG_20210710_164939.jpg"
+                                    alt="Hero media">
+                                <img class="hero-media-image asset-dark"
+                                    src="https://media.discordapp.net/attachments/796259732683227157/863359897210060820/IMG_20210710_164939.jpg"
+                                    alt="Hero media">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="features section">
                 <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
+                    <div class="features-inner section-inner has-bottom-divider">
                         <div class="features-header text-center">
                             <div class="container-sm">
                                 <h2 class="section-title mt-0">PteroStats</h2>
-                                <p class="section-paragraph">a bot designed to check Pterodactyl Panel, and Nodes status and post it to discord server</p>
+                                <p class="section-paragraph">a bot designed to check Pterodactyl Panel, and Nodes status
+                                    and post it to your discord server</p>
                                 <div class="features-image">
                                     <img class="features-illustration asset-dark"
                                         src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
-                                    <img class="features-box asset-dark" src="https://media.discordapp.net/attachments/796259732683227157/863359896912658472/IMG_20210710_170313.jpg" alt="Feature box">
+                                    <img class="features-box asset-dark"
+                                        src="https://media.discordapp.net/attachments/796259732683227157/863359896912658472/IMG_20210710_170313.jpg"
+                                        alt="Feature box">
                                     <img class="features-illustration asset-dark"
                                         src="dist/images/features-illustration-top-dark.svg"
                                         alt="Feature illustration top">
                                     <img class="features-illustration asset-light"
                                         src="dist/images/features-illustration-light.svg" alt="Feature illustration">
-                                    <img class="features-box asset-light" src="https://media.discordapp.net/attachments/796259732683227157/863359896912658472/IMG_20210710_170313.jpg" alt="Feature box">
+                                    <img class="features-box asset-light"
+                                        src="https://media.discordapp.net/attachments/796259732683227157/863359896912658472/IMG_20210710_170313.jpg"
+                                        alt="Feature box">
                                     <img class="features-illustration asset-light"
                                         src="dist/images/features-illustration-top-light.svg"
                                         alt="Feature illustration top">
                                 </div>
-							</div>
+                            </div>
                         </div>
                         <div class="features-wrap">
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-01-light.svg" alt="Feature 01">
-										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
+                                        <img class="asset-light" src="dist/images/feature-01-light.svg"
+                                            alt="Feature 01">
+                                        <img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
                                     </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Customize Embed</h3>
-                                    	<p class="text-sm mb-0">You can change the embed in the config.json file!</p>
-									</div>
-								</div>
+                                    <div class="feature-content">
+                                        <h3 class="feature-title mt-0">Customize Embed</h3>
+                                        <p class="text-sm mb-0">You can change the embed in the config.json file!</p>
+                                    </div>
+                                </div>
                             </div>
-							<div class="feature is-revealing">
+                            <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-02-light.svg" alt="Feature 02">
-										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
+                                        <img class="asset-light" src="dist/images/feature-02-light.svg"
+                                            alt="Feature 02">
+                                        <img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
                                     </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Easy Setup</h3>
-                                    	<p class="text-sm mb-0">All you need to do is create apikeys and server(s) for each node(s) at your pterodactyl panel, add the server id to index.js, and fill in the required informations in the config.json file.</p>
-									</div>
-								</div>
+                                    <div class="feature-content">
+                                        <h3 class="feature-title mt-0">Easy Setup</h3>
+                                        <p class="text-sm mb-0">All you need to do is create apikeys and server(s) for
+                                            each node(s) at your pterodactyl panel, add the server id to index.js, and
+                                            fill in the required informations in the config.json file.</p>
+                                    </div>
+                                </div>
                             </div>
-							<div class="feature is-revealing">
+                            <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
+                                        <img class="asset-light" src="dist/images/feature-03-light.svg"
+                                            alt="Feature 03">
+                                        <img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
                                     </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">How it works?</h3>
-                                    	<p class="text-sm mb-0">PteroStats checks pterodactyl server(s) resource api with axios to get server resource, if the api didn't reply that mean the node of the server is getting wings/daemon down and mark the node as offline</p>
-									</div>
-								</div>
+                                    <div class="feature-content">
+                                        <h3 class="feature-title mt-0">How it works?</h3>
+                                        <p class="text-sm mb-0">PteroStats checks pterodactyl server(s) resource api
+                                            with axios to get server resource, if the api didn't reply that mean the
+                                            node of the server is getting wings/daemon down and mark the node as offline
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-			<section class="cta section">
+            <section class="cta section">
                 <div class="container-sm">
                     <div class="cta-inner section-inner">
                         <div class="cta-header text-center">
                             <h2 class="section-title mt-0">Need Help?</h2>
-                            <p class="section-paragraph">This bot is still in development! While i will try to provide the lowest downtime but it may go off sometimes during updates and stuffs. If you want to follow up, you can join the Support Server.</p>
-							<div class="cta-cta">
-								<a class="button button-primary" href="https://discord.gg/zv6maQRah3">Join Support Server</a>
-							</div>
-					    </div>
+                            <p class="section-paragraph">This bot is still in development! While i will try to provide
+                                the lowest downtime but it may go off sometimes during updates and stuffs. If you want
+                                to follow up, you can join the Support Server.</p>
+                            <div class="cta-cta">
+                                <a class="button button-primary" href="https://discord.gg/zv6maQRah3">Join Support
+                                    Server</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -146,8 +178,8 @@
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
                         <a href="#">
-							<img class="asset-light" src="dist/images/logo-light.svg" alt="Logo">
-							<img class="asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+                            <img class="asset-light" src="dist/images/logo-light.svg" alt="Logo">
+                            <img class="asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
                         </a>
                     </div>
                     <ul class="footer-links list-reset">
@@ -159,11 +191,14 @@
                         </li>
                     </ul>
                     <div class="footer-copyright">&copy; 2021 PteroStats, all rights reserved</div>
-                    <div class= "footer-copyright"> <p> Template from  <a href="https://cruip.com/">  Cruip  </a> (switch) </p> </div>
+                    <div class="footer-copyright">
+                        <p> Template from <a href="https://cruip.com/"> Cruip </a> (switch) </p>
+                    </div>
                 </div>
             </div>
         </footer>
     </div>
     <script src="dist/js/main.min.js"></script>
 </body>
+
 </html>
