@@ -9,13 +9,13 @@ bot_status:
     type: 'WATCHING' # can be 'WATCHING', 'PLAYING', 'LISTENING', or 'COMPETING'. for 'STREAMING' is not working for now
 
 # Discord Channel and Refresh Time Configuration
-channel: 'Put channel id here'
-refresh: 60
+channel: '1038135400184696954'
+refresh: 10
 
 # Panel Configuration
 panel:
-    url: 'Put panel url here'
-    key: 'Put panel apikey here'
+    url: 'panel.unbenchedhosting.online'
+    key: 'ptla_VJIW4jtUJOVgbzckKcxItDJvMMQasUrsusvY9NkgnNO'
 
 # Message Configuration
 # set to false if you want to disable option
